@@ -4,8 +4,8 @@ import os
 class Var(object):
     APP_ID = int(os.environ.get("7092919", 6))
     # 6 is a placeholder
-    API_HASH = os.environ.get("e37661f962cc0a17e784927cfc83cac9", None)
-    STRING_SESSION = os.environ.get("1BVtsOIMBuyAOZPx5R5rbmQpp-uDiax3ePYJhM958b5WIMdLfygDTeok9wArFM0Kfuwq6wm6iqCdjVAFeZa_UEzs5HkUsuDeynOmrpKjXukVlgwUdjXwTdJ-WDHZW__8OlQhIQxLeZj96L3sAoMhGtNYUM6kWnEd4N1DHG_Ddq2Jl5d2nJdFPNDGrDvVr7YfG0sM4An3w8s248uOF0jm2mYYvmWYdaSnpfOrhQIrjjUFJwxrYkp2TPpmdZ9pSS6QE9QZTKOYzzVi0i3XZJRPOHNGJ5_urpfkzbbyyd5-B4C69wDEmZbhg9nCV3h3b6bG3JijWwBKWgy-2QW-v7JSL6_H1zE3wMho=", None)
+    API_HASH = os.environ.get("API_HASH", e37661f962cc0a17e784927cfc83cac9)
+    STRING_SESSION = os.environ.get("STRING_SESSION", 1BVtsOIMBuyAOZPx5R5rbmQpp-uDiax3ePYJhM958b5WIMdLfygDTeok9wArFM0Kfuwq6wm6iqCdjVAFeZa_UEzs5HkUsuDeynOmrpKjXukVlgwUdjXwTdJ-WDHZW__8OlQhIQxLeZj96L3sAoMhGtNYUM6kWnEd4N1DHG_Ddq2Jl5d2nJdFPNDGrDvVr7YfG0sM4An3w8s248uOF0jm2mYYvmWYdaSnpfOrhQIrjjUFJwxrYkp2TPpmdZ9pSS6QE9QZTKOYzzVi0i3XZJRPOHNGJ5_urpfkzbbyyd5-B4C69wDEmZbhg9nCV3h3b6bG3JijWwBKWgy-2QW-v7JSL6_H1zE3wMho=)
     DB_URI = os.environ.get("DATABASE_URL", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./userbot/DOWNLOADS/")
     LOGGER = True
@@ -23,7 +23,7 @@ class Var(object):
     PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", f"{-1001525112206}")
     PRIVATE_GROUP_BOT_API_ID = os.environ.get("PRIVATE_GROUP_BOT_API_ID", f"{-1001525112206}")
     PM_PERMIT_GROUP_ID = os.environ.get("PM_PERMIT_GROUP_ID", f"{-1001525112206}")
-    TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", None)
+    TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", @Satoshi1_Robot)
     NO_SONGS = bool(os.environ.get("NO_SONGS", False))
     DOWNLOAD_PFP_URL_CLOCK = os.environ.get("DOWNLOAD_PFP_URL_CLOCK", None)
     G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
