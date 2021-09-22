@@ -2,10 +2,10 @@ import os
 
 
 class Var(object):
-    APP_ID = int(os.environ.get("APP_ID", 6))
+    APP_ID = int(os.environ.get("7092919", 6))
     # 6 is a placeholder
-    API_HASH = os.environ.get("API_HASH", None)
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
+    API_HASH = os.environ.get("e37661f962cc0a17e784927cfc83cac9", None)
+    STRING_SESSION = os.environ.get("1BVtsOIMBuyAOZPx5R5rbmQpp-uDiax3ePYJhM958b5WIMdLfygDTeok9wArFM0Kfuwq6wm6iqCdjVAFeZa_UEzs5HkUsuDeynOmrpKjXukVlgwUdjXwTdJ-WDHZW__8OlQhIQxLeZj96L3sAoMhGtNYUM6kWnEd4N1DHG_Ddq2Jl5d2nJdFPNDGrDvVr7YfG0sM4An3w8s248uOF0jm2mYYvmWYdaSnpfOrhQIrjjUFJwxrYkp2TPpmdZ9pSS6QE9QZTKOYzzVi0i3XZJRPOHNGJ5_urpfkzbbyyd5-B4C69wDEmZbhg9nCV3h3b6bG3JijWwBKWgy-2QW-v7JSL6_H1zE3wMho=", None)
     DB_URI = os.environ.get("DATABASE_URL", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./userbot/DOWNLOADS/")
     LOGGER = True
@@ -17,12 +17,12 @@ class Var(object):
     LESS_SPAMMY = os.environ.get("LESS_SPAMMY", None), 
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-    TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
+    TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", 2043886741:AAE87shI7sc_tzzocYvq0NBpzs3RYxZDsz0)
     # Send .get_id in any channel to fill this value.
-    COMBINED_GROUP_ID = int(os.environ.get("COMBINED_GROUP_ID", -100))
-    PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", f"{COMBINED_GROUP_ID}")
-    PRIVATE_GROUP_BOT_API_ID = os.environ.get("PRIVATE_GROUP_BOT_API_ID", f"{COMBINED_GROUP_ID}")
-    PM_PERMIT_GROUP_ID = os.environ.get("PM_PERMIT_GROUP_ID", f"{COMBINED_GROUP_ID}")
+    COMBINED_GROUP_ID = int(os.environ.get("COMBINED_GROUP_ID", -1001525112206))
+    PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", f"{-1001525112206}")
+    PRIVATE_GROUP_BOT_API_ID = os.environ.get("PRIVATE_GROUP_BOT_API_ID", f"{-1001525112206}")
+    PM_PERMIT_GROUP_ID = os.environ.get("PM_PERMIT_GROUP_ID", f"{-1001525112206}")
     TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", None)
     NO_SONGS = bool(os.environ.get("NO_SONGS", False))
     DOWNLOAD_PFP_URL_CLOCK = os.environ.get("DOWNLOAD_PFP_URL_CLOCK", None)
@@ -37,10 +37,10 @@ class Var(object):
         t_file = open(TEMP_DOWNLOAD_DIRECTORY + "auth_token.txt", "w")
         t_file.write(AUTH_TOKEN_DATA)
         t_file.close()
-    PRIVATE_GROUP_ID = os.environ.get("PRIVATE_GROUP_ID", f"{COMBINED_GROUP_ID}")
+    PRIVATE_GROUP_ID = os.environ.get("PRIVATE_GROUP_ID", f"{-1001525112206}")
     if PRIVATE_GROUP_ID is not None:
         try:
-            PRIVATE_GROUP_ID = int(PRIVATE_GROUP_ID)
+            PRIVATE_GROUP_ID = int(-1001525112206)
         except ValueError:
             raise ValueError(
                 "Invalid Private Group ID. Make sure your ID is starts with -100 and make sure that it is only numbers."
