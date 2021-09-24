@@ -15,8 +15,8 @@ class Var(object):
     SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
     LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
     LESS_SPAMMY = os.environ.get("LESS_SPAMMY", None), 
-    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
-    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", a8e49d92-77f9-4f4b-8f5f-7fff9053491e)
+    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", Userbot)
     TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", 2043886741:AAE87shI7sc_tzzocYvq0NBpzs3RYxZDsz0)
     # Send .get_id in any channel to fill this value.
     COMBINED_GROUP_ID = int(os.environ.get("COMBINED_GROUP_ID", -1001525112206))
